@@ -405,3 +405,101 @@ footer p {
 	color: #999;
 	margin-top: 50px;
 }
+/*Media Queries*/
+@media (max-width:560px) {
+	nav {text-align: center;
+	}
+	nav ul {
+		margin: 0;
+	}
+	header h1 {
+		font-size: 30px;
+		margin-top: 0;
+	}
+	.manifesto {
+		padding-left: 0;
+	}
+	.manifesto h2 {
+		font-size: 30px;
+		margin: 0;
+	}
+	.customers {
+		margin-bottom: 0;
+	}
+	hr {
+		height: 0;
+	}
+	.rework h2 {
+		font-size: 30px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.offerings h2 {
+		font-size: 30px;
+		position: relative;
+		padding-top: 0px;
+	}
+}
+@media (max-width:750px) {
+	.products {
+		padding: 0;
+		margin: 0 auto;
+		float: left;
+	}
+	.products a {
+		margin: 0;
+		left: 5%;
+		position: none;
+		padding: 20px 0;
+		width: 30%;
+	}
+	.products p {
+	}
+	section {
+		width: 100%;
+	}
+	.customers h2 {
+		text-align: center;
+		font-size: 28px;
+		margin: 0;
+	}
+	.customers p {
+		font-size: 14px;
+	}
+	.main-offerings {
+		width: 99%;
+		margin: 0 auto;
+		text-align: center;
+	}
+@media (max-width:900px) {
+	img {
+		display: none;
+	}
+/*Stack Columns*/
+@media (max-width:845px) {
+	.column, .column-end {
+		float: none;
+	}
+	.column-end {
+		margin: 0;
+	}
+	hr {
+		background: none;
+	}
+	.offerings .column-end {
+		float: none;
+		margin-left: 0;
+		width: 100%;
+	}
+	.offerings .column {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+/*Images*/
+	.book a img {
+		display: none;
+	}
+}
+
+
